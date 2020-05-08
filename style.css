@@ -1,0 +1,292 @@
+@font-face{
+    font-family: 'Merriweather';
+    src: url(../Fonts/Merriweather-Regular.ttf);
+}
+@font-face{
+    font-family: opensens;
+    src: url(../Fonts/OpenSans-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+h1>span{
+    color: green;
+}
+h1{
+    color:#316DC3;
+}
+
+.center{
+    text-align: center;
+}
+
+p{
+    font-family: Opensens;
+}
+nav ul li a{
+    cursor: pointer;
+    padding: 0.5rem;
+    font-family: Opensens;
+}
+nav ul{
+    margin-left: 20%;
+    
+}
+nav ul li{
+
+    text-decoration: none;
+    display: inline;
+   
+}
+nav ul li a:hover{
+    background-color:#316DC3;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+.active{
+    background-color: #316DC3;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.slider{
+background-color:#316DC3;
+color: white;
+text-align: center;
+height: 30px;
+}
+.slider span{
+    color: lightgreen;
+}
+.topbar{
+    background-color:#316DC3 ;
+    padding: 5px;
+    color: #fff;
+}
+.topbar i{
+    margin: 0,7px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.show-in-line{
+    display: inline-block;
+}
+.social{
+    float: left;
+}
+.head-buttons{
+    float: right;
+    
+}
+.head-buttons a{
+width: auto;
+background-color: white;
+padding: 5px 15px;
+text-align: center;
+font-size: 13px;
+}
+.moto{
+    margin-left: 170px;
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}
+.countings{
+    background-color:#2755E9;
+    padding: 70px 0 70px 0;
+    font-family: sans-serif;
+
+}
+.adoption{
+    display: inline-block;
+}
+.totalnumbers{
+    font-weight: bold;
+    font-size:60px;
+    color: white;
+}
+.totalnumbers span{
+    color:#07E227;
+}
+.whatwedo{
+    background-color:#F7F8FA ;
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+
+}
+.bg-white{
+    background-color: #fff!important;
+    color:#2755E9 ;
+}
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+
+}
+.border{
+    border: 1px solid #dee2e6!important;
+}
+.bggrey{
+    background-color: #F7F8FA!important;
+}
+.seprator{
+    width: 70px;
+    height: 3px;
+    background-color: green;
+    display: block;
+}
+h3{
+    color:#2755E9;
+}
+.marque{
+    font-size:17px;
+    height: 300px;
+    font-family: sans-serif;
+}
+.marque span{
+color:#2755E9 ;
+}
+.big{
+    font-size: 20px;
+    font-weight: bold;
+    color:#2755E9;
+    font-family: sans-serif;
+}
+.underline{
+    font-weight: bold;
+    color: green;
+    font-family: sans-serif;
+}
+.footer{
+    background-color: black;
+    font-family: Merriweather;
+    color: grey;
+}
+.socialicons{
+   
+    color: #ffffff
+}
+.icon{
+    background-color:#2755E9 ;
+    display: inline-block;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.5em;
+
+}
+
+.foot{
+    color: white;
+background-color:#316dc3 ;
+}
+.navbar-toggler button{
+    float: right;
+}
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 990px) {
+     
+    .totalnumbers{
+        font-weight: bold;
+        font-size:30px;
+        color: white;
+    }
+    .mg-top{
+        margin-top: 8%;
+    }
+    /*  Top Header */
+    .fbicon{
+        margin-left: 30%;
+    }
+    .btnicons{
+        float: left;
+        margin-left: 25%;
+    }
+
+    .set span{
+       font-size: 13px;
+       font-weight: bold;
+    }
+    .set img{
+        width: 13%;
+        height: 13%;
+    }
+/* Styles */
+}
+@media only screen 
+and (min-device-width : 990px) 
+and (max-device-width : 1199px) {
+      /*  Top Header */
+    .fbicon{
+        margin-left: 1%;
+    }
+.headergraph{
+    font-size: 13px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 2px;
+}
+.btnicons {
+float: right;
+margin-left: 1%;
+width: 20%;
+}
+.head-buttons a{
+    padding: 4px 7px;
+    text-align: center;
+    font-size: 13px;
+   
+    }
+    .totalnumbers{
+        font-weight: bold;
+        font-size:30px;
+        color: white;
+    }
+
+   
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
+      /*  What we are doing */
+      .whatwedo h1{
+          font-size: 25px;
+      }
+      .btnicons {
+        float: left;
+        margin-left: 25%;
+        width: 80%;
+        
+        }
+        .head-buttons a{
+            padding: 3px 5px;
+            text-align: center;
+            font-size: 13px;
+           
+            }
+            .totalnumbers{
+                font-weight: bold;
+                font-size:30px;
+                color: white;
+            }
+        .set span{
+            font-size: 20px;
+        }
+        .set img{
+            width: 10%;
+            height: 10%;
+        }
+    }
